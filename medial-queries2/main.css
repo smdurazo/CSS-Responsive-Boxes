@@ -1,73 +1,58 @@
-body {
-  background: papayawhip;
-}
-
-* {
-  border: 1px solid teal;
-  box-sizing: border-box;
-}
-
 .container {
   display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.wrapper {
-  display: flex;
+  position: relative;
+  width: 600px;
+  height: 800px;
+  border: 1px solid;
+  padding: 10px;
   flex-wrap: wrap;
-  flex-direction: column;
-  flex-grow: 3;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 70vh;
+  margin: 10px auto;
+  justify-content: space-evenly;
 }
 
-header, footer, aside, .wrapper  {
-  flex-grow: 1;
-  margin: .5em;
-  max-height: 10vh;
+.a {
+    width: 580px;
+    height: 150px;
+    border: 1px solid;
+    margin: 0 auto;
+    background-color: lightcoral;
 }
 
-aside  {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  min-height: 20vh;
+.b {
+  width: 580px;
+  height: 260px;
+  border: 1px solid;
+  margin: 0px auto;
+  background-color: lightblue;
+}
+
+.c {
+    width: 186px;
+    height: 170px;
+    border: 1px solid;
+    margin: 0px;
+    background-color: orange;
+}
+
+.d {
+    width: 186px;
+    height: 170px;
+    border: 1px solid;
+    background-color: lightsalmon;
+}
+
+.e {
+    width: 186px;
+    height: 170px;
+    border: 1px solid;
+    background-color: lightpink;
 
 }
 
-aside > div {
-  flex-grow: 10;
-  margin: .5em;
-  /* min-width: 20vh; */
-}
-
-main {
-  width: 90%;
-  flex-grow: 3;
-  margin: .5em;
-}
-
-
-@media (min-width: 600px) {
-  .container {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  header {
-    width: 100%;
-    max-height: 10vh;
-  }
-  .wrapper {
-    justify-content: stretch;
-    flex-basis: 70%;
-      min-height:  80vh;
-  }
-  footer {
-    margin: .5em;
-    flex-grow: 3;
-    min-height:  80vh;
-  }
+.f {
+  width: 580px;
+  height: 150px;
+  border: 1px solid;
+  margin: 0px auto;
+  background-color: lightskyblue;
 }
